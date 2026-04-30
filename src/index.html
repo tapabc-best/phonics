@@ -631,19 +631,14 @@
 
   <!-- Choose Your Learning Plan -->
   <section class="py-20 bg-gray-50 relative overflow-hidden">
-    <!-- Background decorative elements -->
-
-    <div class="absolute inset-0 overflow-hidden"></div>
-    <!-- ✅ closed -->
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div class=" mx-auto px-4 sm:px-6 lg:px-8 relative">
       <!-- Section Header -->
       <div class="text-center mb-16">
         <div data-i18n="plan_badge"
           class="inline-flex items-center text-pink-600 px-6 py-2 rounded-full text-md font-black mb-4 bg-white shadow-xl border-4 border-pink-300 animate-pulse">
           💎 Choose Your Learning Plan
         </div>
-        <h3 data-i18n="plan_title" class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <h3 data-i18n="plan_title" class="text-4xl md:text-5xl font-bold text-gray-900 ">
           Start Your Kids Journey Today
         </h3>
         <p data-i18n="plan_desc" class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -653,184 +648,145 @@
       </div>
 
       <!-- Pricing Cards -->
-       <div class="grid md:grid-cols-3 gap-10 lg:gap-12 items-stretch">
-        <!-- Basic Plan -->
-        <div
-          class="group relative bg-white rounded-3xl p-10 md:p-8 shadow-lg h-full flex flex-col justify-between hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.03] border border-gray-100 overflow-hidden">
-          <div class="relative flex flex-col flex-grow">
-            <div class="text-center mb-8">
-              <h4 data-i18n="plan_beginner" class="text-2xl font-bold text-gray-900 mb-2">Beginner</h4>
-              <p data-i18n="plan_beginner_sub" class="text-gray-600 mb-6">Perfect for getting started</p>
-              <div class="mb-6">
-                <span class="text-5xl font-bold text-gray-900">7,81 USD</span>
-                <span data-i18n="price_suffix" class="text-gray-600 ml-2">/per lesson</span>
-              </div>
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-12 items-stretch px-4">
+        
+        <!-- SmartStart Card -->
+        <div class="relative bg-white rounded-[2rem] border-2 border-blue-400 shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col overflow-visible pt-10">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+            <span class="bg-blue-500 text-white px-8 py-1.5 rounded-full text-sm font-black tracking-widest uppercase shadow-md">SMARTSTART</span>
+          </div>
+          <div class="px-8 pb-8 flex flex-col justify-between h-full">
+            <h4 data-i18n="plan_smartstart_title" class="text-3xl font-extrabold text-blue-900 text-center  leading-tight">Start Smart,<br>Build Strong Foundations!</h4>
+            <div class="h-80 lg:h-96 flex items-center justify-center mb-4">
+              <img src="images/image copy.png" alt="SmartStart" class="max-h-full object-contain">
+            </div>
+            
+            <div class="bg-blue-500 text-white rounded-2xl p-4 text-center mb-6 shadow-inner">
+              <p data-i18n="plan_smartstart_lessons" class="text-lg font-bold opacity-90">10 Lessons</p>
+              <p class="text-4xl font-black">$7 <span data-i18n="price_suffix" class="text-lg font-medium opacity-80">/lesson</span></p>
             </div>
 
-            <ul class="space-y-4 mb-10 flex-grow">
+            <ul class="space-y-2 text-lg mb-6 px-2">
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_beginner_feat1" class="text-gray-700">Pay for 10 lessons at once, no payment stress</span>
+                <div class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_smartstart_feat1" class="text-gray-700 font-bold text-sm">Perfect for first-time learners</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_beginner_feat2" class="text-gray-700">Flexible schedule with 1.5month</span>
+                <div class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_smartstart_feat2" class="text-gray-700 font-bold text-sm">Small step, big start</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_beginner_feat3" class="text-gray-700">Easiy to start the English learning journey</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-<span data-i18n="plan_beginner_feat4" class="text-gray-900 font-bold 
- decoration-blue-200 decoration-2">10-lesson package</span>
+                <div class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_smartstart_feat3" class="text-gray-700 font-bold text-sm">Build confidence from the beginning</span>
               </li>
             </ul>
 
-            <a href="biggner-details.html" data-i18n="buy_now"
-              class="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-blue-500 text-white hover:from-pink-400 hover:to-blue-400 transition-all duration-300 shadow-lg hover:shadow-xl">
-              Buy Now
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-7l7 7-7 7" />
-              </svg>
+            <a href="biggner-details.html" class="bg-blue-500 hover:bg-blue-600 text-white font-black py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-xl shadow-blue-200">
+              <span class="text-2xl">🚀</span> <span data-i18n="plan_smartstart_btn">Great to get started!</span>
             </a>
           </div>
         </div>
 
-        <!-- Standard Plan (Most Popular) -->
-        <div
-          class="group relative bg-white rounded-3xl p-10 md:p-8 shadow-2xl h-full flex flex-col justify-between transform hover:-translate-y-3 hover:scale-[1.05] transition-all duration-500 border-2 border-purple-200 overflow-visible z-10">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
-            <div data-i18n="plan_popular"
-              class="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold shadow-md">
-              Most Popular
-            </div>
+        <!-- Most Popular Card -->
+        <div class="relative bg-white rounded-[2rem] border-2 border-pink-400 shadow-2xl hover:shadow-[0_20px_50px_rgba(236,64,122,0.3)] transition-all duration-300 flex flex-col overflow-visible z-10  pt-10">
+          <div class="absolute -top-5 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1">
+            <span data-i18n="plan_popular_badge" class="bg-pink-500 text-white px-8 py-1.5 rounded-full text-sm font-black tracking-widest uppercase shadow-md flex items-center gap-2">
+              <svg class="w-4 h-4 fill-current text-yellow-300" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+              MOST POPULAR
+            </span>
+            <!-- <span data-i18n="plan_best_value" class="text-pink-600 font-black text-[10px] tracking-widest uppercase bg-white px-3 py-0.5 rounded-md border-2 border-pink-200 shadow-sm">BEST VALUE</span> -->
           </div>
-
-          <div class="relative flex flex-col flex-grow z-10">
-            <div class="text-center mb-8">
-              <h4 data-i18n="plan_learner" class="text-2xl font-bold text-gray-900 mb-2">Learner</h4>
-              <p data-i18n="plan_learner_sub" class="text-gray-600 mb-6">Best for serious learners</p>
-              <div class="mb-6">
-                <span class="text-5xl font-bold text-gray-900">6,69 USD</span>
-                <span data-i18n="price_suffix" class="text-gray-600 ml-2">/per lesson</span>
-              </div>
+          <div class="px-8 pb-8 flex flex-col justify-between h-full">
+            <h4 data-i18n="plan_popular_title" class="text-3xl font-extrabold text-pink-900 text-center  leading-tight">The Perfect Balance<br>for Steady Progress!</h4>
+            <div class="h-80 lg:h-96 flex items-center justify-center mb-4">
+              <img src="images/image copy 2.png" alt="Most Popular" class="max-h-full object-contain">
+              <!-- Speech Bubble -->
+              <!-- <div data-i18n="plan_popular_bubble" class="absolute -top-2 -right-4 bg-white border-2 border-pink-100 rounded-2xl p-3 text-[10px] font-black text-pink-600 shadow-lg max-w-[100px] leading-tight animate-bounce">
+                Most students ♥ choose this plan!
+              </div> -->
+            </div>
+            
+            <div class="bg-pink-500 text-white rounded-2xl p-4 text-center mb-6 shadow-inner">
+              <p data-i18n="plan_popular_lessons" class="text-lg font-bold opacity-90">20 Lessons</p>
+              <p class="text-4xl font-black">$6 <span data-i18n="price_suffix" class="text-lg font-medium opacity-80">/lesson</span></p>
             </div>
 
-            <ul class="space-y-4 mb-10 flex-grow">
+            <ul class="space-y-3 mb-6 px-2">
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_learner_feat1" class="text-gray-700">Develop appetite of English learning</span>
+                <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_popular_feat1" class="text-gray-700 font-bold text-sm">Best balance of value and results</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_learner_feat2" class="text-gray-700">Optional 2-3 times/week</span>
+                <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_popular_feat2" class="text-gray-700 font-bold text-sm">Stay consistent, see real improvement</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_learner_feat3" class="text-gray-700">Speed up on learning progress</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_learner_feat4" class="text-gray-700">Ready to talk ability</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_learner_feat5" class="text-gray-900 font-bold 
- decoration-blue-200 decoration-2">20-lesson package</span>
+                <div class="w-6 h-6 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_popular_feat3" class="text-gray-700 font-bold text-sm">Most balanced plan for progress</span>
               </li>
             </ul>
 
-            <a href="Learner-details.html" data-i18n="buy_now"
-              class="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-blue-500 text-white hover:from-pink-400 hover:to-blue-400 transition-all duration-300 shadow-lg hover:shadow-xl">
-              Buy Now
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-7l7 7-7 7" />
-              </svg>
+            <a href="Learner-details.html" class="bg-pink-500 hover:bg-pink-600 text-white font-black py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-xl shadow-pink-200">
+              <span class="text-2xl">👑</span> <span data-i18n="plan_popular_btn">Best value for most learners!</span>
             </a>
           </div>
         </div>
 
-        <!-- Premium Plan -->
-        <div
-          class="group relative bg-white rounded-3xl p-10 md:p-8 shadow-lg h-full flex flex-col justify-between hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.03] border border-gray-100 overflow-hidden">
-          <div class="relative flex flex-col flex-grow">
-            <div class="text-center mb-8">
-              <h4 data-i18n="plan_explorer" class="text-2xl font-bold text-gray-900 mb-2">Explorer</h4>
-              <p data-i18n="plan_explorer_sub" class="text-gray-600 mb-6">For advanced learners</p>
-              <div class="mb-6">
-                <span class="text-5xl font-bold text-gray-900">5,58 USD</span>
-                <span data-i18n="price_suffix" class="text-gray-600 ml-2">/per lesson</span>
-              </div>
+        <!-- MaximumSaver Card -->
+        <div class="relative bg-white rounded-[2rem] border-2 border-green-400 shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col overflow-visible pt-10">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+            <span class="bg-green-600 text-white px-8 py-1.5 rounded-full text-sm font-black tracking-widest uppercase shadow-md">MAXIMUMSAVER</span>
+          </div>
+          <div class="px-8 pb-8 flex flex-col justify-between h-full">
+            <h4 data-i18n="plan_maximumsaver_title" class="text-3xl font-extrabold text-green-900 text-center  leading-tight">Maximum Learning,<br>Maximum Savings!</h4>
+            <div class="h-80 lg:h-96 flex items-center justify-center mb-4">
+              <img src="images/image copy 3.png" alt="MaximumSaver" class="max-h-full object-contain">
+            </div>
+            
+            <div class="bg-green-600 text-white rounded-2xl p-4 text-center mb-8 shadow-inner">
+              <p data-i18n="plan_maximumsaver_lessons" class="text-lg font-bold opacity-90">30 Lessons</p>
+              <p class="text-4xl font-black">$5 <span data-i18n="price_suffix" class="text-lg font-medium opacity-80">/lesson</span></p>
             </div>
 
-            <ul class="space-y-4 mb-10 flex-grow">
+            <ul class="space-y-3 mb-6 px-2">
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat1" class="text-gray-700">Serious commitment in English</span>
+                <div class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_maximumsaver_feat1" class="text-gray-700 font-bold text-sm">Lowest price per lesson</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat2" class="text-gray-700">Long term purpose for advancing level</span>
+                <div class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_maximumsaver_feat2" class="text-gray-700 font-bold text-sm">More practice, better results</span>
               </li>
               <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat3" class="text-gray-700">Speaking ability enhancing rapidly</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat4" class="text-gray-700">Beautiful pronunciation</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat5" class="text-gray-700">Focus group for after class praticing</span>
-              </li>
-                   <li class="flex items-center gap-3">
-                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                </svg>
-                <span data-i18n="plan_explorer_feat6" class="text-gray-900 font-bold 
- decoration-blue-200 decoration-2">30-lesson package</span>
+                <div class="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                </div>
+                <span data-i18n="plan_maximumsaver_feat3" class="text-gray-700 font-bold text-sm">Best for long-term success</span>
               </li>
             </ul>
 
-            <a href="Explorer-details.html" data-i18n="buy_now"
-              class="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-pink-500 to-blue-500 text-white hover:from-pink-400 hover:to-blue-400 transition-all duration-300 shadow-lg hover:shadow-xl">
-              Buy Now
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-7l7 7-7 7" />
-              </svg>
+            <a href="Explorer-details.html" class="bg-green-600 hover:bg-green-700 text-white font-black py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-xl shadow-green-200">
+              <span class="text-2xl">🏆</span> <span data-i18n="plan_maximumsaver_btn">Best savings for the future!</span>
             </a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
