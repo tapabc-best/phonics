@@ -309,13 +309,13 @@ const translations = {
       {
         name: 'Sham',
         role: 'Mother of Sham, Age 8',
-        image: 'https://cdn-icons-png.freepik.com/512/11696/11696257.png',
+        image: 'https://cdn-icons-png.freepik.com/512/11696/11696257.jpg',
         quote: 'The program was truly excellent, and I noticed a significant improvement in my child’s reading and speaking skills, as well as a growing interest in learning English at home.'
       },
       {
         name: 'Juri',
         role: 'Father of Juri, Age 9',
-        image: 'https://cdn-icons-png.freepik.com/512/8193/8193914.png',
+        image: 'https://cdn-icons-png.freepik.com/512/8193/8193914.jpg',
         quote: 'I really appreciated the teacher’s engaging and friendly approach, which helped all students feel comfortable and encouraged them to actively participate during the lessons.'
       },
       {
@@ -333,7 +333,7 @@ const translations = {
       {
         name: 'Hesham',
         role: 'Mother of Hesham, Age 10',
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/053/537/859/small/cartoon-boy-with-green-shirt-on-transparent-background-free-png.png',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/053/537/859/small/cartoon-boy-with-green-shirt-on-transparent-background-free-png.jpg',
         quote: 'I highly recommend this program to other parents, as it provides real value and creates a positive impact on children’s learning journey.'
       }
     ]
@@ -646,13 +646,13 @@ const translations = {
       {
         name: 'شام',
         role: 'والدة شام، 8 سنوات',
-        image: 'https://cdn-icons-png.freepik.com/512/11696/11696257.png',
+        image: 'https://cdn-icons-png.freepik.com/512/11696/11696257.jpg',
         quote: 'كان البرنامج ممتازًا حقًا، ولاحظت تحسنًا كبيرًا في مهارات القراءة والتحدث لدى طفلي، فضلاً عن الاهتمام المتزايد بتعلم اللغة الإنجليزية في المنزل.'
       },
       {
         name: 'جوري',
         role: 'والد جوري، 9 سنوات',
-        image: 'https://cdn-icons-png.freepik.com/512/8193/8193914.png',
+        image: 'https://cdn-icons-png.freepik.com/512/8193/8193914.jpg',
         quote: 'لقد قدرت حقًا أسلوب المعلم الجذاب والودود، مما ساعد جميع الطلاب على الشعور بالراحة وشجعهم على المشاركة بنشاط خلال الدروس.'
       },
       {
@@ -670,7 +670,7 @@ const translations = {
       {
         name: 'هشام',
         role: 'والدة هشام، 10 سنوات',
-        image: 'https://static.vecteezy.com/system/resources/thumbnails/053/537/859/small/cartoon-boy-with-green-shirt-on-transparent-background-free-png.png',
+        image: 'https://static.vecteezy.com/system/resources/thumbnails/053/537/859/small/cartoon-boy-with-green-shirt-on-transparent-background-free-png.jpg',
         quote: 'أوصي بشدة بهذا البرنامج لأولياء الأمور الآخرين، لأنه يقدم قيمة حقيقية ويخلق تأثيرًا إيجابيًا على رحلة تعلم الأطفال.'
       }
     ]
